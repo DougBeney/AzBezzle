@@ -17,8 +17,6 @@ else:
 
 PAGE_URL = args.url
 
-#PAGE_URL = input("What is the URL you want to check? ")
-
 def links(url):
     html = requests.get(url).content
     bsObj = BeautifulSoup(html, features='lxml')
@@ -47,6 +45,7 @@ def links(url):
             finalLinks.append(fullURL)
         the_index += 1
     return finalLinks
+
 
 def get_unowned_links(links):
     the_links = []
