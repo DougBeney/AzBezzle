@@ -21,7 +21,7 @@ make
 
 **Usage**:
 
-After installing, you have an executable file in your dist/ folder. You could run this via the command line.
+After installing, you have an executable file in your `dist/` folder. You could execute it via the command line.
 
 ```
 usage: azbezzle [-h] [--id ID] url
