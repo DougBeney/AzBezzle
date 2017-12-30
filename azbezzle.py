@@ -46,7 +46,6 @@ def links(url):
         the_index += 1
     return finalLinks
 
-
 def get_unowned_links(links):
     the_links = []
     for link in links:
