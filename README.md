@@ -2,27 +2,7 @@
 ## Make sure Amazon links on a given URL contain your affiliate ID.
 #### Works on Windows, Mac, and Linux
 
-
-## Basic Usage:
-
-Dependencies:
-
-- Python3
-- Virtualenv
-- Make
-
-**Installation:**
-
-```bash
-virtualenv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-make
-```
-
-**Usage**:
-
-After installing, you have an executable file in your `dist/` folder. You could execute it via the command line.
+## Usage:
 
 ```
 usage: azbezzle [-h] [--id ID] url
@@ -35,3 +15,35 @@ optional arguments:
   --id ID     Your Amazon Associate ID
 
 ```
+
+## Building:
+
+Dependencies:
+
+- Python3
+- Virtualenv
+- Make
+
+```bash
+virtualenv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+make
+```
+
+## Installing (Windows):
+
+Coming soon. (Maybe)
+
+## Installing (Mac/Linux)
+
+```bash
+make install_unix
+```
+
+## Uninstalling (Mac/Linux)
+
+```bash
+make uninstall_unix
+```
+
