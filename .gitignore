@@ -1,1 +1,6 @@
 .venv/
+*.spec
+build/
+dist/
+.ropeproject
+__pycache__/

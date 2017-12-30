@@ -1,5 +1,0 @@
-#! /usr/bin/python3
-
-PAGE_URL = input("Enter the page URL to check: ")
-
-
