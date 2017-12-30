@@ -14,7 +14,7 @@ Dependencies:
 
 ```bash
 virtualenv .venv
-source .venv/bin/active
+source .venv/bin/activate
 pip install -r requirements.txt
 make
 ```
