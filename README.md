@@ -9,6 +9,7 @@ Dependencies:
 
 - Python3
 - Virtualenv
+- Make
 
 **Installation:**
 
