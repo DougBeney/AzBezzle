@@ -1,5 +1,6 @@
 import os
 import sys
+from sys import platform
 from bs4 import BeautifulSoup
 import requests
 import urllib.request as urlreq
@@ -27,7 +28,10 @@ def links(url):
     the_index = 0
     for link in links:
         percent_done = round(the_index / amt_of_links * 100)
-        os.system('clear')
+        if platform == "win32":
+            os.system('cls')
+        else:
+            os.system('clear')
         print(str(percent_done) + "% done checking links")
         link = str(link.attrs['href'])
         if "amazon." in link:
